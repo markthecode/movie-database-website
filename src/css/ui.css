@@ -1,0 +1,197 @@
+
+html {
+  background-image: url(../img/dark-honeycomb.png);
+  background-color: #272727;
+}
+
+
+body {
+  margin-top: 0px;
+}
+
+.navbar-add {
+  background-color: #272727;
+}
+
+.my-navbar {
+  color: white;
+}
+
+a.my-navbar:hover {
+  color: #14A76C;
+  background-color: white;
+}
+
+a.my-navbar.active {
+  color: #14A76C;
+}
+
+a.my-nav-icon {
+  color: #14A76C;
+}
+
+a.my-nav-icon:hover {
+  color: white;
+}
+
+.my-pag-btn {
+  color: white;
+  background-color: #3EC46D;
+  border-color: #3EC46D;
+}
+
+a.my-pag-btn:hover {
+  color: white;
+  background-color: #14A76C;
+  border-color: #f03a5f;
+}
+
+.my-pag-link {
+  color: white;
+  border-color: #3EC46D;
+}
+
+a.my-pag-link:hover {
+  color: #3EC46D;
+  border-color: #f03a5f;
+}
+
+.my-pag-active {
+  color: white;
+  background-color: #3EC46D;
+  border-color: #3EC46D;
+}
+
+a.my-user-btn {
+  color: #3EC46D;
+}
+
+a.my-user-btn.active {
+  background-color: #3EC46D;
+  color: white;
+}
+
+a.my-user-btn-remove {
+  color: #f03a5f;
+}
+
+.my-rating-btn {
+  margin: 5px;
+}
+
+label.my-checkbox:hover, label.my-checkbox:active {
+  color:  #3EC46D;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/drulhSX7P5TQlEMQZ3JoXKSDEfz.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jiqD14fg7UTZOT6qgvzTmfRYpWI.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dirty-harry-search {
+  background-image: url('https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j72hNDkHaoucek9Fe93CmvV9XoF.jpg');
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: bottom right;
+  border-radius: 10px;
+  height: 400px;
+  background-color: white;
+}
+
+/*
+.container {
+  border: 1px solid black;
+}
+
+.columns {
+  border: 1px solid blue;
+}
+
+.column {
+  border: 1px solid red;
+}
+*/
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  position: relative;
+  min-width: 100%;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.mcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.title-font {
+  font-family: 'RocknRoll One', sans-serif;
+  color: white;
+}
+
+.logo {
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.l-icon {
+  font-size: 2.5rem;
+  color: #14A76C;
+}
+
+.logo-nav {
+  padding: 5px;
+}
+
+.my-subtitle {
+  margin-top: 5px;
+  padding: 3px;
+}
+
+hr.line1 { 
+  border: 1px solid #f03a5f;
+  margin: 5px -10px;
+}
+
+hr.line2 {
+  border: 1px solid #14A76C;
+  margin: 5px -10px;
+}
+
+/*
+.iconify {
+  color: #008E82;
+  width: 40px;
+  height: 40px;
+}
+*/
